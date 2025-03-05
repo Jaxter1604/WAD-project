@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'songeek',
+    'songeek_project',
 ]
 
 MIDDLEWARE = [
@@ -106,6 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+LOGIN_URL = 'songeek:login'
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
